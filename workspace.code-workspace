@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Inactive Portfolio Templates"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio Site"
+	}
+}
