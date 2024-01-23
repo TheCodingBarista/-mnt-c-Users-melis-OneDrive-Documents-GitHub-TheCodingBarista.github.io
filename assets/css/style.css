@@ -276,7 +276,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #35D3DE;
+  color: #fff;
 }
 .section-title h2::after {
   content: "";
@@ -388,9 +388,8 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio, .testimonials {
-  color: #fff;;
+  color: #fff;
 }
-
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -538,6 +537,9 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials {
+  background: #000;
+}
 .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -563,7 +565,7 @@ section {
   margin: 0;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #1fbfc9;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -847,7 +849,6 @@ section {
 .back {
   background: #1fbfc9;  
   padding: $padding;
-
 }
 .name {
   color: #3B3B3B;
@@ -857,11 +858,10 @@ p {
   margin: 0.8em 0;
 }
 .info {
-  
   position: absolute;
   bottom: $padding;
   left: $padding;
-  color: #3b3b3b;
+  color: #e2d3cc;
 }
 .property {
   color: #fff;
@@ -944,7 +944,7 @@ h1{
 		@include transition(.3s);
 		max-width:300px;
 		margin:15px;
-		background:#1fbfc9;
+		background:#000;
 		border:5px solid #fff;
 		text-align:center;
 		cursor:pointer;
@@ -959,12 +959,12 @@ h1{
 		.card-img{
 			position:relative;
 			text-align:center;
-			background:#149ddd;
+			background:#b890d6;
 			img{
 				@include transition(.3s);
 				max-height:180px;
 				width:100%;
-				border-bottom:4px solid #149ddd;
+				border-bottom:4px solid #b890d6;
 			}
 			&:before{
 				content:'';
@@ -974,7 +974,7 @@ h1{
 				margin-left: -10px;
 				width: 0;
 				height: 0;
-				border-top: solid 10px #149ddd;
+				border-top: solid 10px #b890d6;
 				border-left: solid 10px transparent;
 				border-right: solid 10px transparent;
 			}
@@ -1011,9 +1011,9 @@ h1{
 			width:auto;
 			text-align:center;
 			text-transform:uppercase;
-			background:#040b14;
+			background:#b890d6;
 			color:#fff;
-      border:1px solid #fff;
+      border:3px solid #fff;
 			padding:15px;
 			margin-bottom:30px;
 			font-family: 'Oswald', sans-serif;
